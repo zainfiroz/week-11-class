@@ -9,8 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Button></Button>
+      <Button appName={"Qtnotiks"}>
       hello world
+      </Button>
     </>
   );
 }
